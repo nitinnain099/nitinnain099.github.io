@@ -1,25 +1,29 @@
 <html>
 <head>
 <title>Best Anime</title>
-<link rel="stylesheet" type"text.css" href="menu.css" >
+<link rel="stylesheet" type="text.css" href="menu.css" >
 <style>
 	body
 	  {background-image:url("background.jpg");
-	     background-size:1100px 480px;
+	     background-size:1200px 580px;
 	     background-attachment:fixed;}
 	
 	.bl
 {	display: inline-block ;
 	margin : 1em 2em ;
+	transition: all 0.5s ;
+
 }
                   .heading
 {	color: black ;
 	-webkit-text-stroke : 1px white ;
 	font-family : Impact, Charcoal, sans-serif ;
 	margin-top : 4em ;
+	transition: all 0.5s ;
+
 }
 						
-	.heading:hover
+	.heading:hover, .bl:hover
 {	transform : scale(1.3) ;
 } 
 
@@ -30,6 +34,7 @@
 	.header
 {	background:  linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 	position : fixed ;
+	top: 1px;
 	width : 100% ;
 	z-index : 1 ;
 }
@@ -37,15 +42,23 @@
 	.box
 {	border : 2px solid white ;
 }
+
+a
+{ color: white; 
+	font-size: 20px;
+	font-style: sans-serif ;
+	text-decoration: none;
+}
 </style>
+
 </head>
 <body>
 <div>
 <div class="header">
 		<div class="bl box"><a href = "#">Anime</a></div>
-		<div class="bl marg"><a href = "#">HOME</a></div>
-		<div class="bl"><a href = "#">Category</a></div>
-		<div class="bl"><a href = "#">Feedback</a></div>
+		<div class="bl marg"><a href = "index.html">HOME</a></div>
+		<div class="bl"><a href = "category.html">Category</a></div>
+		<div class="bl"><a href = "htmlform.html">Feedback</a></div>
 		<div class="bl"><a href = "#">Contact Us</a></div>
 </div>
 <div>
